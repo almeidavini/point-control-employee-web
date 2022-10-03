@@ -1,0 +1,34 @@
+<mat-card>
+  <mat-card-content>
+    <div>
+      <img src="../../assets/logo.png" alt="Logo">
+    </div>
+    <div id="linha"></div>
+    <div id="form">
+      <h1>Registrar Computador</h1>
+      <div id="campos-form">
+        <mat-form-field id="rua" appearance="outline">
+          <mat-label>Rua</mat-label>
+          <input matInput placeholder="Rua">
+        </mat-form-field>
+        <mat-form-field id="numero" appearance="outline">
+          <mat-label>Número</mat-label>
+          <input matInput placeholder="Número">
+        </mat-form-field>
+        <mat-form-field id="bairro" appearance="outline">
+          <mat-label>Bairro</mat-label>
+          <input matInput placeholder="Bairro">
+        </mat-form-field>
+        <mat-form-field id="cidade" appearance="outline">
+          <mat-label>Cidade</mat-label>
+          <input matInput placeholder="Cidade">
+        </mat-form-field>
+        <mat-form-field id="estado" appearance="outline">
+          <mat-label>Estado (UF)</mat-label>
+          <input matInput placeholder="Estado (UF)">
+        </mat-form-field>
+        <button mat-raised-button routerLink="/home-admin">Confirmar</button>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

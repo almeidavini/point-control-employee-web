@@ -1,0 +1,76 @@
+mat-card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+mat-card-footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+img{
+  max-height: 250px;
+  max-width: 250px;
+  width: auto;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+#btn-registro-ponto{
+  width: 20rem;
+  height: 3.1rem;
+  margin-top: .4rem;
+  background-color: green;
+  color: white;
+}
+
+#btn-sair{
+  width: 20rem;
+  height: 3.1rem;
+  margin-top: .4rem;
+  background-color: red;
+  color: white;
+}
+
+#btn-alterar-senha{
+  width: 20rem;
+  height: 3.1rem;
+  margin-top: .4rem;
+  background-color: blue;
+  color: white;
+}
+
+#nome-estrela{
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#nome-estrela h1{
+  display: flex;
+  font-size: 2rem;
+}
+
+#estrela{
+  max-height: 20px;
+  max-width: 20px;
+  width: auto;
+  height: auto;
+  margin-top: -.1rem;
+  margin-right: 1rem;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#link{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem;
+}

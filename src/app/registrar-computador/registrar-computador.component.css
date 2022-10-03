@@ -1,0 +1,66 @@
+mat-card-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img{
+  max-height: 250px;
+  max-width: 250px;
+  width: auto;
+  height: auto;
+  margin-top: 3rem;
+}
+
+#linha{
+  height: 300px;
+  border-right: 1px solid black;
+  margin-left: 1rem;
+}
+
+#form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button{
+  width: 13.5rem;
+  margin-top: 1rem;
+  background-color: green;
+  color: white;
+}
+
+#campos-form{
+  margin-left: 2rem;
+}
+
+#campos-form mat-form-field{
+  margin-right: 1rem;
+}
+
+#rua{
+  width: 20rem;
+}
+
+#numero{
+  width: 7rem;
+}
+
+#bairro{
+  width: 13.5rem;
+}
+
+#cidade{
+  width: 13.5rem;
+}
+
+#estado{
+  width: 13.5rem;
+}
+
+h1{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

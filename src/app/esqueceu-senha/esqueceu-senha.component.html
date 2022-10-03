@@ -1,0 +1,22 @@
+<mat-card>
+  <mat-card-title>
+    Confirme sua identidade
+  </mat-card-title>
+  <mat-card-content>
+    <div id="form">
+      <mat-form-field id="nome" appearance="outline">
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Nome">
+      </mat-form-field>
+      <mat-form-field id="cpf" appearance="outline">
+        <mat-label>CPF</mat-label>
+        <input matInput placeholder="CPF">
+      </mat-form-field>
+      <button id="btn-confirmar" mat-raised-button routerLink="/alterar-senha">Confirmar</button>
+      <button id="btn-voltar" mat-raised-button routerLink="/login">Voltar</button>
+    </div>
+  </mat-card-content>
+  <mat-card-footer>
+    <img src="../../assets/logo2.png" alt="Logo">
+  </mat-card-footer>
+</mat-card>

@@ -1,0 +1,33 @@
+mat-card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+mat-card-footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+img{
+  max-height: 250px;
+  max-width: 250px;
+  width: auto;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+#btn-confirmar{
+  width: 20rem;
+  height: 3.1rem;
+  margin-top: .4rem;
+  background-color: green;
+  color: white;
+}
+
+h1{
+  display: flex;
+  font-size: 2rem;
+}
