@@ -22,7 +22,7 @@ img{
 #btn-confirmar{
   width: 20rem;
   height: 3.1rem;
-  margin-top: .4rem;
+  margin: 2.5rem;
   background-color: green;
   color: white;
 }
@@ -30,4 +30,27 @@ img{
 h1{
   display: flex;
   font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+#tipo{
+  width: 75%;
+}
+
+#descricao{
+  width: 75%;
+}
+
+textarea{
+  height: 10rem;
+}
+
+#entrada{
+  width: 40%;
+  margin-left: -7rem;
+}
+
+#saida{
+  width: 40%;
+  margin-left: 1rem;
 }

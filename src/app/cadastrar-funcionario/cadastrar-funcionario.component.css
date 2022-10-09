@@ -1,0 +1,90 @@
+mat-card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+mat-card-footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+img{
+  max-height: 250px;
+  max-width: 250px;
+  width: auto;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+#btn-confirmar{
+  width: 10rem;
+  height: 3.1rem;
+  background-color: green;
+  color: white;
+  margin-right: 1rem;
+}
+
+#btn-voltar{
+  width: 10rem;
+  height: 3.1rem;
+  background-color: red;
+  color: white;
+}
+
+h1{
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+#entrada{
+  width: 20%;
+  margin-right: 1rem;
+}
+
+#saida{
+  width: 20%;
+  margin-right: 1rem;
+}
+
+#cargo{
+  width: 49%;
+}
+
+#nome{
+  width: 60%;
+  margin-right: 1rem;
+}
+
+#cpf{
+  width: 31%;
+  margin-right: 1rem;
+}
+
+#email{
+  width: 60%;
+}
+
+#nm_empresa{
+  width: 51%;
+  margin-right: 1rem;
+}
+
+#cnpj{
+  width: 40%;
+}
+
+#form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+mat-checkbox{
+  margin-right: 65%;
+  margin-bottom: 3rem;
+}
