@@ -27,6 +27,14 @@ img{
   color: white;
 }
 
+#btn-registro-abono{
+  width: 20rem;
+  height: 3.1rem;
+  margin-top: .4rem;
+  background-color: darkorange;
+  color: white;
+}
+
 #btn-sair{
   width: 20rem;
   height: 3.1rem;
@@ -53,24 +61,8 @@ img{
   font-size: 2rem;
 }
 
-#estrela{
-  max-height: 20px;
-  max-width: 20px;
-  width: auto;
-  height: auto;
-  margin-top: -.1rem;
-  margin-right: 1rem;
-}
-
 a{
   color: white;
   text-decoration: none;
   font-size: 1rem;
-}
-
-#link{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 1rem;
 }

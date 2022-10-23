@@ -10,16 +10,15 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { EsqueceuSenhaComponent } from './esqueceu-senha/esqueceu-senha.component';
 import { AlterarSenhaComponent } from './alterar-senha/alterar-senha.component';
-import { RegistrarComputadorComponent } from './registrar-computador/registrar-computador.component';
 import { HomeAdminComponent } from './home-admin/home-admin.component';
 import { RegistrarPontoComponent } from './registrar-ponto/registrar-ponto.component';
-import { CadastrarFuncionarioComponent } from './cadastrar-funcionario/cadastrar-funcionario.component';
 import { RegistrarAbonoComponent } from './registrar-abono/registrar-abono.component';
 
 @NgModule({
@@ -28,10 +27,8 @@ import { RegistrarAbonoComponent } from './registrar-abono/registrar-abono.compo
     LoginComponent,
     EsqueceuSenhaComponent,
     AlterarSenhaComponent,
-    RegistrarComputadorComponent,
     HomeAdminComponent,
     RegistrarPontoComponent,
-    CadastrarFuncionarioComponent,
     RegistrarAbonoComponent
   ],
   imports: [
@@ -46,7 +43,8 @@ import { RegistrarAbonoComponent } from './registrar-abono/registrar-abono.compo
     MatIconModule,
     MatCheckboxModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

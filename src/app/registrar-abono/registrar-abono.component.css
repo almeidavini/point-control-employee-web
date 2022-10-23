@@ -20,10 +20,17 @@ img{
 }
 
 #btn-confirmar{
-  width: 20rem;
+  width: 17.5rem;
   height: 3.1rem;
-  margin: 2.5rem;
   background-color: green;
+  color: white;
+}
+
+#btn-voltar{
+  width: 17.5rem;
+  height: 3.1rem;
+  background-color: red;
+  margin-left: 1rem;
   color: white;
 }
 
@@ -47,7 +54,8 @@ textarea{
 
 #entrada{
   width: 40%;
-  margin-left: -7rem;
+  margin-left: -5.5rem;
+  margin-bottom: 1rem;
 }
 
 #saida{
