@@ -10,7 +10,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatSnackBarModule } from '@angular/material/snack-bar'
+import {NgxMaskModule} from 'ngx-mask'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +22,7 @@ import { AlterarSenhaComponent } from './alterar-senha/alterar-senha.component';
 import { HomeAdminComponent } from './home-admin/home-admin.component';
 import { RegistrarPontoComponent } from './registrar-ponto/registrar-ponto.component';
 import { RegistrarAbonoComponent } from './registrar-abono/registrar-abono.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,13 @@ import { RegistrarAbonoComponent } from './registrar-abono/registrar-abono.compo
     MatCheckboxModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    FormsModule
+    FormsModule,
+    NgxMaskModule.forRoot({
+      showMaskTyped : true
+    }),
+    ReactiveFormsModule,
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

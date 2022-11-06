@@ -4,17 +4,17 @@
         <img src="../../assets/logo.png" alt="Logo">
       </div>
       <div id="linha"></div>
-      <div id="form">
+      <form id="form" [formGroup]="form" (ngSubmit)="login()">
         <mat-form-field appearance="outline">
           <mat-label>CPF</mat-label>
-          <input matInput placeholder="CPF" [(ngModel)]="cpf" name="cpf">
+          <input matInput formControlName="cpf" type="text" mask="000.000.000-00" placeholder="CPF" name="cpf">
         </mat-form-field>
         <mat-form-field appearance="outline">
           <mat-label>SENHA</mat-label>
-          <input matInput placeholder="SENHA" [(ngModel)]="senha" name="senha">
+          <input matInput formControlName="senha" type="password" placeholder="SENHA" name="senha">
         </mat-form-field>
         <a routerLink="/esqueceu-senha" style="margin-top: -10px;">Esqueceu sua senha?</a>
-        <button mat-raised-button (click)="login()">Entrar</button>
-      </div>
+        <button mat-raised-button type="submit">Entrar</button>
+      </form>
     </mat-card-content>
 </mat-card>

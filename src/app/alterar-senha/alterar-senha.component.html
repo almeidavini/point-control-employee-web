@@ -7,9 +7,9 @@
     <div id="form">
       <mat-form-field appearance="outline">
         <mat-label>Nova senha</mat-label>
-        <input matInput placeholder="Nova senha">
+        <input matInput type="password" placeholder="Nova senha">
       </mat-form-field>
-      <button id="btn-mudar-senha" mat-raised-button>Mudar senha</button>
+      <button id="btn-mudar-senha" mat-raised-button (click)="openSnackBar()">Mudar senha</button>
       <button id="btn-voltar" mat-raised-button routerLink="/login">Voltar</button>
     </div>
   </mat-card-content>

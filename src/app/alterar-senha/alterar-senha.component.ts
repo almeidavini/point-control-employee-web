@@ -1,4 +1,6 @@
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-alterar-senha',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlterarSenhaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _snackBar: MatSnackBar, private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  openSnackBar() {
+    this._snackBar.open('Senha alterada com sucesso!', 'Fechar',{
+      duration: 3000
+    });
+
+    this.router.navigate(['/', 'login'])
+  }
 }

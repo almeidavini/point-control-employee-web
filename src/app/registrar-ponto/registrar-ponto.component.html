@@ -11,8 +11,8 @@
       <h1>
         18-03 18:08
       </h1>
-      <button id="btn-entrada" mat-raised-button>Entrada / Retorno</button>
-      <button id="btn-saida" mat-raised-button>Saída / Pausa</button>
+      <button id="btn-entrada" mat-raised-button (click)="openSnackBar()">Entrada / Retorno</button>
+      <button id="btn-saida" mat-raised-button (click)="openSnackBar()">Saída / Pausa</button>
     </div>
   </mat-card-content>
 </mat-card>
