@@ -1,4 +1,14 @@
+import { ICompany } from "./company"
+
 export interface IUser {
-  cpf: string,
+  id: string
+  name: string
+  email: string
   password: string
+  role: string
+  firstAccess: boolean
+  companyCnpj?: string | null
+  createdAt: Date
+  updatedAt: Date
+  company?: ICompany
 }

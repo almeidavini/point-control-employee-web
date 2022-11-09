@@ -1,7 +1,9 @@
-import { IUser } from './../interfaces/User';
 import { ApiService } from './../services/api.service';
 import { Component, OnInit } from '@angular/core';
-import { FormGroup,FormBuilder, Validators } from '@angular/forms';
+import { SignInData } from '../interfaces/SignInData';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -10,27 +12,37 @@ import { FormGroup,FormBuilder, Validators } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
-  form: FormGroup
+  loginForm!: FormGroup;
 
-  constructor(private fb: FormBuilder, private apiService: ApiService) {
-    this.form = this.fb.group({
-      cpf: [null, [Validators.required]],
-      senha: [null, [Validators.required]]
+  constructor(private apiService: ApiService, private _snackBar: MatSnackBar, private router: Router) { }
+
+  ngOnInit(): void {
+    this.loginForm = new FormGroup({
+      cpf: new FormControl('', [Validators.required]),
+      password: new FormControl('', [Validators.required])
     });
   }
 
-  ngOnInit(): void {
+  get cpf() {
+    return this.loginForm.get('cpf')?.value
   }
 
-  login(): void {
-    const user: IUser = {
-      cpf: '49358418850',
-      password: '123'
+  get password() {
+    return this.loginForm.get('password')?.value
+  }
+
+  login() {
+    const credentials : SignInData = {
+     cpf: this.cpf, 
+     password: this.password
     }
 
-    this.apiService.Autenticar(user)
-      .then(login => console.log(login))
-      .catch(error => console.log(error));
+    this.apiService.login(credentials).subscribe(
+      () => {
+        this.router.navigate(['home-admin'])
+      }, error => {
+        this._snackBar.open(error.error.error, 'Fechar');
+      }
+    )
   }
-
 }
