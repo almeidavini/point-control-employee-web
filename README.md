@@ -116,7 +116,7 @@ Thanks goes to these wonderful people, who were part of the project from start t
       <a href="https://github.com/Lissone" target="_blank">
         <img src="https://github.com/Lissone.png" width="100px;" alt="Leonardo Lissone Santomero photo"/><br>
         <sub>
-          <b>Leonardo Lissone Santomero</b>
+          <b>Leonardo Lissone</b>
         </sub>
       </a>
     </td>
