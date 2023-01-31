@@ -113,6 +113,14 @@ Thanks goes to these wonderful people, who were part of the project from start t
 <table>
   <tr>
     <td align="center">
+      <a href="https://github.com/Lissone" target="_blank">
+        <img src="https://github.com/Lissone.png" width="100px;" alt="Leonardo Lissone Santomero photo"/><br>
+        <sub>
+          <b>Leonardo Lissone Santomero</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/MikaMorais" target="_blank">
         <img src="https://github.com/MikaMorais.png" width="100px;" alt="Moises Morais photo"/><br>
         <sub>
@@ -125,14 +133,6 @@ Thanks goes to these wonderful people, who were part of the project from start t
         <img src="https://github.com/steniodr.png" width="100px;" alt="Stenio Rapchan photo"/><br>
         <sub>
           <b>Stenio Rapchan</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/almeidavini" target="_blank">
-        <img src="https://github.com/almeidavini.png" width="100px;" alt="Vinicius Almeida photo"/><br>
-        <sub>
-          <b>Vinicius Almeida</b>
         </sub>
       </a>
     </td>
