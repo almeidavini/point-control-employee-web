@@ -13,18 +13,18 @@
 <br />
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=license&message=MIT" alt="License">
-  <img src="https://img.shields.io/github/repo-size/Lissone/point-control-admin-web" alt="Repo size" />
-  <img src="https://img.shields.io/github/languages/top/Lissone/point-control-admin-web" alt="Top lang" />
-  <img src="https://img.shields.io/github/stars/Lissone/point-control-admin-web" alt="Stars repo" />
-  <img src="https://img.shields.io/github/forks/Lissone/point-control-admin-web" alt="Forks repo" />
-  <img src="https://img.shields.io/github/issues-pr/Lissone/point-control-admin-web" alt="Pull requests" >
-  <img src="https://img.shields.io/github/last-commit/Lissone/point-control-admin-web" alt="Last commit" />
+  <img src="https://img.shields.io/github/repo-size/almeidavini/point-control-employee-web" alt="Repo size" />
+  <img src="https://img.shields.io/github/languages/top/almeidavini/point-control-employee-web" alt="Top lang" />
+  <img src="https://img.shields.io/github/stars/almeidavini/point-control-employee-web" alt="Stars repo" />
+  <img src="https://img.shields.io/github/forks/almeidavini/point-control-employee-web" alt="Forks repo" />
+  <img src="https://img.shields.io/github/issues-pr/almeidavini/point-control-employee-web" alt="Pull requests" >
+  <img src="https://img.shields.io/github/last-commit/almeidavini/point-control-employee-web" alt="Last commit" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Lissone/point-control-admin-web/issues">Report bug</a>
+  <a href="https://github.com/almeidavini/point-control-employee-web/issues">Report bug</a>
   ·
-  <a href="https://github.com/Lissone/point-control-admin-web/issues">Request feature</a>
+  <a href="https://github.com/almeidavini/point-control-employee-web/issues">Request feature</a>
 </p>
 
 <br />
@@ -44,9 +44,9 @@ To access the other projects integrated to this one, access:
 
 This project was done in partnership with:
 
+- <a href="https://github.com/Lissone" target="_blank">Leonardo Lissone Santomero</a>
 - <a href="https://github.com/MikaMorais" target="_blank">Moises Morais</a>
 - <a href="https://github.com/steniodr" target="_blank">Stenio Rapchan</a>
-- <a href="https://github.com/almeidavini" target="_blank">Vinicius Almeida</a>
 
 ## Demonstration
 
