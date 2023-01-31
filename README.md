@@ -31,7 +31,7 @@
 
 ## Description
 
-This project is the website employee version of a company point control application. The company's accredited employees have access to the data of the rest of the other employees, being able to validate their absences, control and verify the frequency of the beat of entry and exit points and keep the data of all employees in a safe way.
+COLAR TEXTO
 
 Project developed as an activity of my bachelor's degree in information systems, with the main objective of having a very descriptive and extensive documentation, for anyone to understand the features and learn from it. The api framework was built on clean architecture and documented with Swagger.
 
@@ -49,30 +49,24 @@ This project was done in partnership with:
 - <a href="https://github.com/steniodr" target="_blank">Stenio Rapchan</a>
 
 ## Demonstration
+EDITAR
 
 https://user-images.githubusercontent.com/57052110/194934760-04bbc99d-4cce-464e-a93d-7f47beb80742.mp4
 
 ## Requirements
 
+ADICIONAR ANGULAR
 - [Nodejs](https://nodejs.org/en/)
 - [Npm](https://www.npmjs.com/)
 - [Yarn](https://yarnpkg.com/)
 
 ## Technologies
 
-- ReactJs
-- NextJs
+- Angular
 - Typescript
-- Chakra UI
-- React Hook Form
-- Eslint
-  - Airbnb-config with another pessoal rules
-  - Import helpers plugin
-- Prettier
-- Commitlint
-  - Commitizen
 
 ## Usage
+EDITAR
 
 You can clone it on your pc using the command:
 
