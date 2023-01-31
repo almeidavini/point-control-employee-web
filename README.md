@@ -31,7 +31,7 @@
 
 ## Description
 
-This project is the website admin version of a company point control application. The company's accredited employees have access to the data of the rest of the other employees, being able to validate their absences, control and verify the frequency of the beat of entry and exit points and keep the data of all employees in a safe way.
+This project is the website employee version of a company point control application. The company's accredited employees have access to the data of the rest of the other employees, being able to validate their absences, control and verify the frequency of the beat of entry and exit points and keep the data of all employees in a safe way.
 
 Project developed as an activity of my bachelor's degree in information systems, with the main objective of having a very descriptive and extensive documentation, for anyone to understand the features and learn from it. The api framework was built on clean architecture and documented with Swagger.
 
@@ -40,7 +40,7 @@ To facilitate the development of the project and better describe everything that
 To access the other projects integrated to this one, access:
 
 - <a href="https://github.com/Lissone/point-control-api" target="_blank">Back-end</a>
-- <a href="https://github.com/almeidavini/point-control" target="_blank">Front-end to employees</a>
+- <a href="https://github.com/Lissone/point-control-admin-web" target="_blank">Front-end to admin</a>
 
 This project was done in partnership with:
 
