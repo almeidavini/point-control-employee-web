@@ -55,7 +55,7 @@ https://user-images.githubusercontent.com/57052110/194934760-04bbc99d-4cce-464e-
 
 ## Requirements
 
-ADICIONAR ANGULAR
+- [Angular CLI](https://angular.io/cli)
 - [Nodejs](https://nodejs.org/en/)
 - [Npm](https://www.npmjs.com/)
 - [Yarn](https://yarnpkg.com/)
