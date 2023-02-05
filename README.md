@@ -51,7 +51,7 @@ This project was done in partnership with:
 ## Demonstration
 EDITAR
 
-https://user-images.githubusercontent.com/36748856/216834267-e859bf03-fc30-4ff9-8b17-3f3cb0321d57.gif
+https://user-images.githubusercontent.com/36748856/216835344-2cfc6957-d125-4843-850a-ea61e6746e87.mp4
 
 ## Requirements
 
