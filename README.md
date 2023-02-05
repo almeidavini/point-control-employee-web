@@ -31,7 +31,7 @@
 
 ## Description
 
-COLAR TEXTO
+This project is the website employee version of a company point control application. The company's accredited employees have access to the functions of the beat of entry and exit points and registry of justify absence.
 
 Project developed as an activity of my bachelor's degree in information systems, with the main objective of having a very descriptive and extensive documentation, for anyone to understand the features and learn from it. The api framework was built on clean architecture and documented with Swagger.
 
