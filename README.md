@@ -71,8 +71,8 @@ EDITAR
 You can clone it on your pc using the command:
 
 ```bash
-git clone https://github.com/Lissone/point-control-admin-web.git
-cd point-control-admin-web
+git clone https://github.com/almeidavini/point-control-employee-web.git
+cd point-control-employee-web
 ```
 
 Install dependencies using:
@@ -83,21 +83,10 @@ yarn
 npm install
 ```
 
-Need to add environment variables:
-
-```bash
-# .\.env.local
-
-# DEFAULT
-BASE_URL_API=http://localhost:5000/api/v1
-```
-
 Run application:
 
 ```bash
-yarn dev
-#or
-npm run dev
+ng serve
 ```
 
 ## Contributors
